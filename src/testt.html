@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Place your kit's code here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/a5e04f9449.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <style>
+
+
+    </style>
+     
+    <div >
+        
+    </div>
+    <div class="card-footer text-muted  ">
+      Posted on January 1, 2017 by m-3 p-3
+     
+    <a href="#" class="far fa-edit float-right m-1"></a>
+ 
+    <a href="#" class="far fa-trash-alt float-right m-1"></a>
+ 
+      
+    </div>
+    <form onSubmit={this.onSubmit} className="w-50">
+      <div className="form-group">
+          <label >Title</label>
+          <input value={this.state.title} onChange={this.onChange} name='title' type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+          <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div className="form-group">
+          <label >Context</label>
+          <textarea value={this.state.body} onChange={this.onChange}  name='body'  className="form-control" id="exampleInputPassword1"rows="3"></textarea>
+      </div>
+
+      <button type="submit" className="btn btn-primary m-2 ">Submit</button>
+      </form>  
+    <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
+  </body>
+</html>

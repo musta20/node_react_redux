@@ -1,0 +1,13 @@
+.hideimge img {
+    display:none;
+      }
+
+  .imgs{
+    height: 120px;
+    width: 120px;
+  }
+
+ .smallimgs{
+  height: 40px;
+  width: 40px;
+ }
